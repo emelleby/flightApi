@@ -8,7 +8,7 @@ from datetime import date, timedelta
 from gemissions import emissions
 
 def get_tomorrow_date():
-    now = time.localtime(git add .)
+    now = time.localtime()
     searchdate = time.strftime("%Y-%m-%d", now)
     print("Today's date:", searchdate)
 
